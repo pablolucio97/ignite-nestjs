@@ -19,7 +19,6 @@
         "quotes" : [
             "warn", "single"
         ],
-        "no-unused-vars" : "warn",
         "eqeqeq" : "warn",
         "no-multi-spaces" : "warn",
         "prefer-const": "warn",
