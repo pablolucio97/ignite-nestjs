@@ -39,6 +39,6 @@ export class AuthenticateController {
     }
 
     const token = this.jwt.sign({ sub: user.id });
-    return token;
+    return { token };
   }
 }
