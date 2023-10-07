@@ -8,7 +8,7 @@ import { QuestionBestAnswerChosenEvent } from '@/domain/forum/enterprise/events/
 
 export interface QuestionProps {
   authorId: UniqueEntityID
-  bestAnswerId?: UniqueEntityID
+  bestAnswerId?: UniqueEntityID | null
   title: string
   content: string
   slug: Slug
